@@ -1,3 +1,11 @@
+# Things changed by Chris:
+
+- literally
+- nothing
+- yet
+- remove cloudpickle from `setup.py`
+
+
 **Status:** Maintenance (expect bug fixes and minor updates)
 
 OpenAI Gym
@@ -43,7 +51,7 @@ should know:
 
 - `reset(self)`: Reset the environment's state. Returns `observation`.
 - `step(self, action)`: Step the environment by one timestep. Returns `observation`, `reward`, `done`, `info`.
-- `render(self, mode='human')`: Render one frame of the environment. The default mode will do something human friendly, such as pop up a window. 
+- `render(self, mode='human')`: Render one frame of the environment. The default mode will do something human friendly, such as pop up a window.
 Installation
 ============
 
@@ -75,8 +83,8 @@ Installing everything
 
 To install the full set of environments, you'll need to have some system
 packages installed. We'll build out the list here over time; please let us know
-what you end up installing on your platform. Also, take a look at the docker files (test.dockerfile.xx.xx) to 
-see the composition of our CI-tested images. 
+what you end up installing on your platform. Also, take a look at the docker files (test.dockerfile.xx.xx) to
+see the composition of our CI-tested images.
 
 On OSX:
 
